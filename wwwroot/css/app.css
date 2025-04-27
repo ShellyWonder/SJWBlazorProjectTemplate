@@ -1,8 +1,8 @@
 :root {
     --sjw-title-font: 'Bebas Neue', sans-serif;
     --sjw-body-font: 'Montserrat', sans-serif;
-    --sjw-dark-color: #212121;
-    --sjw-light-color: #deeefb;
+    /*--sjw-dark-color: #212121;
+    --sjw-light-color: #deeefb;*/
     --sjw-font-size: 1.1rem;
 }
 
@@ -14,17 +14,19 @@ html, body {
     height: 100%;
     min-height: 100vh;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--sjw-title-font);
     color: var(--sjw-dark-color);
 }
+
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: var(--sjw-title-font);
     color: var(--sjw-dark-color);
 }
 
 /*ensures flex box works properly*/
-#app{
+#app {
     height: 100%;
 }
 
