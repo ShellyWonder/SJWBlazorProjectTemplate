@@ -1,21 +1,18 @@
 ﻿.footerStyle {
-    background-color: var(--sjw-primary-color);
+    background-color: var(--sjw-theme-900);
     color: var(--sjw-footer-font-color);
 }
-    .footerStyle a {
-        color: var(--sjw-tertiary-color);
-    }
-.footerStyle   a:hover{
-    color: var(--sjw-golden-color);
+
+.footerStyle a {
+    color: var(--sjw-theme-200);
 }
-.footerStyle .bi{
-    color: var(--sjw-golden-color);
-    font-size: 2.5rem;
-    padding-inline-start: 0.5rem;
+
+.footerStyle a:hover{
+    color: var(--sjw-theme-core);
 }
-    .bi a:hover {
-        color: var(--sjw-secondary-color);
-    }
-.sjLinks a {
-    color: var(--sjw-footer-font-color);
+
+.bi {
+    font-size: 1.5rem;
+    padding-inline-start: .5rem;
 }
+
