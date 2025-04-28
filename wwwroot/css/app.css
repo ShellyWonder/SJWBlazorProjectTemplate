@@ -1,9 +1,9 @@
 :root {
     --sjw-title-font: 'Bebas Neue', sans-serif;
     --sjw-body-font: 'Montserrat', sans-serif;
-    /*--sjw-dark-color: #212121;
-    --sjw-light-color: #deeefb;*/
     --sjw-font-size: 1.1rem;
+    --sjw-title-color: var(--sjw-dark-color);
+    
 }
 
 

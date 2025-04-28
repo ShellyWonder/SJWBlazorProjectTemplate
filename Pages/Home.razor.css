@@ -1,5 +1,5 @@
 ﻿.pageStyle {
-    background: url(img/LandingPageBG.png);
+    background: url(/img/LandingPageBG.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .devicons {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 @media (max-width: 992px) {
